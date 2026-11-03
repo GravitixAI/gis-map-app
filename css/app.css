@@ -74,6 +74,30 @@ body {
     font-size: 0.82rem;
 }
 
+.lab-field {
+    margin-bottom: 0.45rem;
+}
+
+.lab-field label {
+    display: block;
+    margin-bottom: 0.15rem;
+    font-size: 0.78rem;
+    color: #5c6b78;
+}
+
+.feature-popup {
+    color: #13202c;
+    font-size: 0.85rem;
+}
+
+.feature-popup strong {
+    display: block;
+}
+
+.feature-popup button {
+    margin-top: 0.4rem;
+}
+
 .maplibregl-ctrl-attrib,
 .maplibregl-ctrl-scale {
     font-size: 11px;

@@ -3,4 +3,11 @@ Options -Indexes
 <IfModule mod_headers.c>
     Header unset X-Powered-By
     Header set X-Content-Type-Options "nosniff"
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
 </IfModule>
+
+<FilesMatch "^(config\.local\.php|config\.example\.php|gisgame\.php)$">
+    Require all denied
+</FilesMatch>
